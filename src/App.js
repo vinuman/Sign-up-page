@@ -7,6 +7,7 @@ function App() {
   return (
     <Router>
       <Nav />
+      <Signup />
       <Routes>
         <Route exact path="/" element={<Signup />} />
         <Route path="/profile" element={<Profile />} />
